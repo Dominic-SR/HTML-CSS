@@ -33,3 +33,7 @@ function checkRequired(inputArr){
 function getElementById(input){
     return input.id.CharAt(0).toUpperCase() + input.id.slice(1);
 }
+
+function checkLength(input,min,max){
+    
+}
