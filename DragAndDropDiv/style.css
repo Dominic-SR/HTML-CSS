@@ -1,0 +1,26 @@
+body{
+border: 2px solid red;
+width: 400px;
+height: 400px;
+margin-left: 350px;
+margin-top: 180px;
+}
+
+.wrapper {
+    position: absolute;
+    max-width: 350px;
+    width: 300px;
+    user-select: none;
+}
+
+.wrapper header.active {
+    position: absolute;
+    cursor: move;
+    user-select: none;
+}
+
+#imgPrime {
+    position: absolute;
+    max-width: 50px;
+    width: 50px;
+}
