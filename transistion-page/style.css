@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    position: absolute;
+    font-size: 42px;
+    background: red; 
+    animation: 1s ease-in-out con;
+}
+
+.tittle{
+    position: relative;
+    color: white;
+    color: aqua;
+    animation: 1s ease-in-out titt;
+    left: 100px;
+}
+
+@keyframes con{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes titt{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(50%);
+    }
+}
